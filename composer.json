@@ -1,6 +1,6 @@
 {
     "name": "checkhim/php",
-    "description": "SDK para integração com a API CheckHim para verificação de números ativos.",
+    "description": "SDK for integrating with the CheckHim API to verify active phone numbers.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -18,7 +18,7 @@
     "authors": [
         {
             "name": "CheckHim Tech",
-            "email": "contato@checkhim.tech",
+            "email": "contact@checkhim.tech",
             "homepage": "https://checkhim.tech"
         }
     ]
