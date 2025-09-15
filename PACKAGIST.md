@@ -1,12 +1,12 @@
-# Publicação no Packagist
+# Publishing on Packagist
 
-1. Crie uma conta em https://packagist.org
-2. Clique em "Submit" e informe a URL do repositório público (ex: GitHub)
-3. Complete as informações e confirme
-4. Após publicado, usuários poderão instalar com:
+1. Create an account at https://packagist.org
+2. Click on "Submit" and provide the public repository URL (e.g., GitHub)
+3. Complete the information and confirm
+4. Once published, users can install with:
    composer require checkhim/php
 
-- Sempre que fizer push na branch main, o Packagist pode ser configurado para atualizar automaticamente.
-- Mantenha o composer.json atualizado com nome, descrição, autores e versão.
+- Every time you push to the main branch, Packagist can be configured to update automatically.
+- Keep your composer.json updated with name, description, authors, and version.
 
-Documentação oficial: https://packagist.org/about
+Official documentation: https://packagist.org/about
