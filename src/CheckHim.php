@@ -22,7 +22,7 @@ class CheckHim
     }
 
     /**
-     * Verifica se o número está ativo.
+     * Checks if the phone number is active.
      * @param string $number
      * @return array
      * @throws \Exception
@@ -40,7 +40,7 @@ class CheckHim
                 ],
                 'json' => [
                     'number' => $number,
-                    'type'   => 'frontend', // inserido internamente
+                    'type'   => 'frontend', // inserted internally
                 ],
                 'http_errors' => false,
             ]);
@@ -52,7 +52,7 @@ class CheckHim
                     'valid'   => (bool)$data['valid'],
                 ];
             }
-            // Tratamento de erro padronizado
+            // Standardized error handling
             if (isset($data['error'], $data['code'])) {
                 return [
                     'error' => $data['error'],
