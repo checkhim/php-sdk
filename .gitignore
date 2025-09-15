@@ -1,0 +1,33 @@
+# Ignorar arquivos e pastas comuns do PHP
+/vendor/
+/composer.lock
+
+# Ignorar arquivos de configuração do ambiente
+.env
+.env.*
+
+# Ignorar arquivos de cache e logs
+*.log
+*.cache
+
+# Ignorar diretórios temporários
+/tmp/
+/temp/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de testes
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignorar arquivos de build
+/build/
+/dist/
