@@ -1,0 +1,25 @@
+{
+    "name": "checkhim/php",
+    "description": "SDK para integração com a API CheckHim para verificação de números ativos.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CheckHim\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "CheckHim Tech",
+            "email": "contato@checkhim.tech",
+            "homepage": "https://checkhim.tech"
+        }
+    ]
+}
