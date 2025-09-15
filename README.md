@@ -1,5 +1,8 @@
 # CheckHim PHP SDK
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/checkhim/php.svg?style=flat-square)](https://packagist.org/packages/checkhim/php)
+[Packagist: checkhim/php](https://packagist.org/packages/checkhim/php)
+
 Official SDK for integrating with the CheckHim API (https://checkhim.tech) to verify if a phone number is active.
 
 ## Installation
